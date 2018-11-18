@@ -1,5 +1,7 @@
 import { combineReducers } from 'redux';
+
 import { HomeReducerState } from './configTypes';
+import authReducer from '../routes/Login/login_duck';
 
 const homeReducer = (state: HomeReducerState = {
   isFetching: false
@@ -16,7 +18,8 @@ const homeReducer = (state: HomeReducerState = {
 
 // we used combineReducers() to combine several reducers into one
 const reducer = combineReducers({
-  home: homeReducer
+  home: homeReducer,
+  auth: authReducer,
 });
 
 export default reducer;
