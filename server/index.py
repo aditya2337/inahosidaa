@@ -18,7 +18,8 @@ LOG = logger.get_root_logger(os.environ.get(
 ), filename=os.path.join(ROOT_PATH, 'output.log'))
 
 # Port variable to run the server on.
-PORT = os.environ.get('PORT')
+PORT = 4000
+print(os.environ)
 
 @app.errorhandler(404)
 def not_found(error):
@@ -40,10 +41,10 @@ def static_proxy(path):
 
 @app.route('/api/v1/login', methods=['POST'])
 def login():
-    data = json.loads(request.data)
+    print(request.get_data())
+    data = json.loads(request.data.decode('utf-8'))
     email = data["email"]
     # password = data["password"]
-    print(request)
     return jsonify({ "data": email })
 
 if __name__ == '__main__':

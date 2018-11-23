@@ -29,3 +29,30 @@
 2018-11-17 11:19:15,952 - root - INFO - running environment: development
 2018-11-17 11:19:16,428 - root - INFO - running environment: development
 2018-11-17 11:20:30,235 - root - INFO - running environment: development
+2018-11-20 10:27:48,758 - root - INFO - running environment: development
+2018-11-20 10:27:49,345 - root - INFO - running environment: development
+2018-11-20 10:29:30,616 - root - INFO - running environment: development
+2018-11-20 10:32:08,879 - root - INFO - running environment: development
+2018-11-20 10:35:07,381 - root - INFO - running environment: development
+2018-11-20 10:35:15,114 - root - INFO - running environment: development
+2018-11-20 10:42:33,271 - root - INFO - running environment: development
+2018-11-20 10:42:35,968 - root - INFO - <Request 'http://localhost:4000/api/v1/login' [POST]>
+2018-11-20 10:43:05,576 - root - INFO - running environment: development
+2018-11-20 10:43:54,971 - root - INFO - running environment: development
+2018-11-20 10:44:35,480 - root - INFO - running environment: development
+2018-11-20 10:44:38,937 - root - INFO - b''
+2018-11-20 10:45:03,168 - root - INFO - b''
+2018-11-20 10:46:21,919 - root - INFO - running environment: development
+2018-11-20 16:51:37,613 - root - INFO - running environment: None
+2018-11-20 16:54:32,860 - root - INFO - running environment: None
+2018-11-20 11:25:12,073 - root - INFO - running environment: development
+2018-11-20 16:55:16,735 - root - INFO - running environment: None
+2018-11-20 11:26:00,465 - root - INFO - running environment: development
+2018-11-20 16:56:10,042 - root - INFO - running environment: None
+2018-11-20 16:59:05,607 - root - INFO - running environment: None
+2018-11-20 17:02:27,280 - root - INFO - running environment: None
+2018-11-22 14:18:10,913 - root - INFO - running environment: None
+2018-11-22 14:23:49,496 - root - INFO - running environment: None
+2018-11-22 14:24:42,891 - root - INFO - running environment: None
+2018-11-22 14:25:23,068 - root - INFO - running environment: None
+2018-11-22 14:28:08,060 - root - INFO - running environment: None

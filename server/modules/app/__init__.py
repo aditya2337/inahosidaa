@@ -6,6 +6,12 @@ import pyrebase
 from flask import Flask
 
 config = {
+   "apiKey": "AIzaSyAOaXCGlG-Ro9SiuRtsHX_EUcqsFMHqb4A",
+    "authDomain": "inahosidaa.firebaseapp.com",
+    "databaseURL": "https://inahosidaa.firebaseio.com",
+    "projectId": "inahosidaa",
+    "storageBucket": "inahosidaa.appspot.com",
+    "messagingSenderId": "546409619224"
 }
 
 firebase = pyrebase.initialize_app(config)
