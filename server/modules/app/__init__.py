@@ -4,6 +4,7 @@ import json
 import datetime
 import pyrebase
 from flask import Flask
+from flask_cors import CORS
 
 config = {
    "apiKey": "AIzaSyAOaXCGlG-Ro9SiuRtsHX_EUcqsFMHqb4A",
@@ -19,3 +20,5 @@ auth = firebase.auth()
 
 # create a flask object
 app = Flask(__name__)
+CORS(app)
+
