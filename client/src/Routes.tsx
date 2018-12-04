@@ -7,6 +7,7 @@ import {
 } from 'react-router-dom';
 
 import Login from './routes/Login';
+import Stepper from './routes/stepper';
 
 const NoMatch = ({ location }) => (
   <section className='flex items-center flex-column justify-center h-100 bg-washed-blue'>
@@ -25,6 +26,7 @@ export default () => (
   <Router>
     <Switch>
       <Route path='/' exact component={Login} />
+      <Route path='/stepper' exact component={Stepper} />
       <Route component={NoMatch} />
     </Switch>
   </Router>

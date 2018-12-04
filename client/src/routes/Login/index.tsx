@@ -104,7 +104,7 @@ const mapStateToProps = state => ({
 });
 const mapDispatchToProps = dispatch => ({
   loginUser: payload => dispatch(loginUser(payload)),
-})
+});
 
 export default connect(mapStateToProps, mapDispatchToProps)((props) => (
   <div className="h-100 flex flex-row">
